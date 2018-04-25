@@ -1,0 +1,52 @@
+/* 整体 */
+.carousel-div {
+    position: relative;
+    width: 1226px;
+}
+/* 图片 */
+.slideImg {
+    display: none;
+}
+.active {
+    display:inline-block;
+}
+/* 按钮 */
+.img-button {
+    height: 90px;
+    width: 50px;
+    background: black;
+    opacity: 0.3;
+    color: #fff;
+    border: none;
+    right: 0;
+    cursor: pointer;
+}
+.next-button {
+    right: 0;
+}
+.last-button {
+    left: 0;
+}
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* 小圆点 */
+.slide-indicators {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    bottom: 16px;
+}
+.slide-indi {
+    display: inline-block;
+    background: grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.indi-white{
+    background: white;
+}
